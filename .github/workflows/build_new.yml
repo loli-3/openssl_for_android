@@ -11,7 +11,8 @@ env:
 
 permissions:
   contents: write
-
+  actions: write
+  
 jobs:
   Compile_OpenSSL_for_Android:
     name: Compile OpenSSL
