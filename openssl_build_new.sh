@@ -31,7 +31,7 @@ ANDROID_NDK_VERSION=$4
 ANDROID_NDK_PATH=${WORK_PATH}/android-ndk-${ANDROID_NDK_VERSION}
 OPENSSL_PATH=${WORK_PATH}/openssl-${OPENSSL_VERSION}
 OUTPUT_PATH=${WORK_PATH}/openssl_${OPENSSL_VERSION}_${ANDROID_TARGET_ABI}
-OPENSSL_OPTIONS="no-apps no-asm no-docs no-engine no-gost no-legacy no-shared no-ssl no-tests no-zlib no-aes no-des no-idea no-camellia no-seed no-bf no-cast no-rc2 no-rc4 no-rc5 no-mdc2"
+OPENSSL_OPTIONS="no-apps no-asm no-docs no-engine no-gost no-legacy no-shared no-ssl no-tests no-zlib no-idea no-aes no-camellia no-seed no-bf no-cast no-des"
 
 if [ "$(uname -s)" == "Darwin" ]; then
     echo "Build on macOS..."
